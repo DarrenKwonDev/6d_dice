@@ -1,4 +1,4 @@
-# trpg_dice
+# Nd6 Dice Roller
 
 A new Flutter project.
 
