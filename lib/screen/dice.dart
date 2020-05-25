@@ -25,7 +25,9 @@ class _DiceMainState extends State<DiceMain> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () {},
+      onWillPop: () {
+        return null;
+      },
       child: Scaffold(
         backgroundColor: Color(0xff252C37),
         floatingActionButton: FloatingActionButton(
@@ -118,7 +120,9 @@ class _DiceChoiceState extends State<DiceChoice> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () {},
+      onWillPop: () {
+        return null;
+      },
       child: Scaffold(
           backgroundColor: Color(0xff252C37),
           body: Container(
